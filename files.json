@@ -1,0 +1,20 @@
+{
+  "permi": [
+    {
+      "path": "/mmm",
+      "chown": "ly:lysysm",
+      "chmod": 750,
+      "du -shc": "下载选择根目录，上传选择根目录, 点击下载计算最近1，3，6 all"
+    }
+  ],
+  "download": [
+    {
+      "path": "/home/test/dbbackup"
+    },
+    {
+      "path": "/mmm",
+      "glob":"[0-9][0-9][0-9][0-9]",
+      "desc": "遇到year目录，就使用这个函数find_date_dir, glob.glob(\"/Users/ly/test/[0-9][0-9][0-9][0-9]\")"
+    }
+  ]
+}
